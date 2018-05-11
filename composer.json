@@ -1,5 +1,5 @@
 {
-    "name": "prabhu/test",
+    "name": "weaverryan1/derp-dangerzone",
     "autoload": {
         "psr-0" : {
             "Weaverryan\\DangerZone" : "src"
