@@ -1,0 +1,8 @@
+{
+    "name": "prabhu/test",
+    "autoload": {
+        "psr-0" : {
+            "Weaverryan\\DangerZone" : "src"
+        }
+    }
+}
