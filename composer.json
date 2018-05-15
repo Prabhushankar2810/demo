@@ -4,5 +4,13 @@
         "psr-0" : {
             "Weaverryan\\DangerZone" : "src"
         }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "LumbralesSoftware/HelloWorld"
+            ]
+        ]
     }
 }
