@@ -6,13 +6,10 @@
   },
   "type": "magento2-module",
     "extra": {
-        "map": [
-            [
-                "*",
-                "app/code/Leanswift/Multiwarehouse"
-            ]
-        ]
-    },
+   "installer-paths": {
+      "app/code/Vendor/Module": ["leanswift1/module-multiwarehouse"]
+   }
+ },
   "autoload": {
     "psr-4": {
       "LeanSwift\\Multiwarehouse\\": ""
