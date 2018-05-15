@@ -1,8 +1,22 @@
 {
     "name": "weaverryan1/derp-dangerzone",
-    "autoload": {
-        "psr-0" : {
-            "Weaverryan\\DangerZone" : "src"
+    "description": "Hello world module using composer!",
+    "require": {
+    },
+    "type": "magento2-module",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Weaverryan1/Derp-dangerzone"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Javi Lumbrales",
+            "homepage": "https://www.lumbrales-software.com/",
+            "role": "Developer"
         }
-    }
+    ]
 }
