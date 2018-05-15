@@ -9,7 +9,7 @@
         "map": [
             [
                 "*",
-                "Leanswift/Multiwarehouse"
+                "app/code/Leanswift/Multiwarehouse"
             ]
         ]
     },
