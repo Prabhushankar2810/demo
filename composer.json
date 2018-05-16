@@ -4,12 +4,15 @@
   "require": {
     "php": "~5.5.0|~5.6.0|~7.0.0"
   },
-  "type": "magento-library",
+  "type": "magento2-module",
     "extra": {
-   "installer-paths": {
-      "app/code/LeanSwift/Multiwarehouse": ["leanswift1/module-multiwarehouse"]
-   }
- },
+        "map": [
+            [
+                "*",
+                "LeanSwift/Multiwarehouse"
+            ]
+        ]
+    },
   "autoload": {
     "psr-4": {
       "LeanSwift\\Multiwarehouse\\": ""
